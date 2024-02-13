@@ -1,14 +1,9 @@
-﻿
-Console.Write("Введите первое число: ");
-Int32 number1 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите второе число: ");
-Int32 number2 = Convert.ToInt32(Console.ReadLine());
-
-if ((number1 / number2) == number2)
-{
-    Console.Write("Да");
-}
-else
-{
-    Console.Write("Нет");
+﻿// Задание 1
+// Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно 7 и 23.
+Console.Write("Введите число:");
+int chislo = Convert.ToInt32(Console.ReadLine());
+if(chislo%7==0 && chislo%23==0){
+Console.WriteLine("Да");
+}else{
+    Console.WriteLine("нет");
 }
